@@ -1,0 +1,286 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.app{
+  margin: 2px 10px;
+  /* border: 1px solid lightgray; */
+}
+
+/* <-------TopNav------> */
+.topNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 20px;
+  border-bottom: 1px solid lightgray;
+  border-top: 4px solid rgb(50, 102, 180);
+  line-height: 40px;
+  padding-bottom: 5px;
+}
+
+.back a{
+  color:rgb(56, 109, 189) ;
+  text-decoration: none;
+}
+
+.top-left{
+  display: flex;
+  align-items: center;
+}
+
+.ulList{
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  color: rgb(56, 109, 189);
+}
+
+.liList{
+  list-style: none;
+  padding: 0 20px;
+}
+
+.B2B{
+  background-color: rgb(56, 109, 189);
+  border-radius: 5px 5px 0 0;
+  color: white;
+}
+
+.top-right span{
+  color:rgb(56, 109, 189) ;
+}
+
+.btn-color{
+  color: rgb(56, 109, 189);
+}
+
+.left-arrow{
+  padding-right: 10px;
+}
+
+/* <-----Middle----> */
+.middle-section{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+  margin-top: 30px;
+}
+
+/* <-----Table-----> */
+
+.bill{
+  border-radius: 5px;
+}
+
+table{
+  border: 1px solid lightgray;
+  width: 500px;
+}
+
+caption{
+  border: 1px solid lightgray;
+  padding: 10px 0;
+  color: rgb(56, 109, 189);
+}
+
+table, td ,caption{
+  border-bottom: 1px solid rgb(236, 236, 236);
+  /* border-radius: 10px; */
+  border-collapse: collapse;
+}
+ td {
+  padding: 12px 10px;
+  text-align: left;
+}
+
+/* <----Form-----> */
+.boxes{
+  display: flex;
+  /* justify-content: space-around; */
+  margin-left: 50px;
+}
+
+.box{
+  padding: 15px 15px;
+  border: 1px solid lightgray;
+  text-align: center;
+  margin: 0 20px;
+}
+
+
+.box a p{
+  color: rgb(56, 109, 189);
+}
+
+.form-input{
+  margin-top: 50px;
+}
+
+.checkbox{
+  margin-top: 15px;
+  display: flex;
+  margin-left: 15px;
+}
+
+.input-span{
+  padding-left: 10px;
+}
+
+#remark{
+  /* border: none; */
+  border: 1px solid lightgray;
+  padding: 10px 7px ;
+  outline: none;
+  width: 350px;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+#remark::placeholder{
+  color: lightgray;
+}
+
+.fa-edit{
+  background-color: darkturquoise;
+  color: white;
+  padding: 4px;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.label-icon{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  padding: 0 2px;
+  margin-left: 200px;
+}
+
+#select{
+  width: 350px;
+  outline: none;
+  border: 1px solid lightgray;
+  padding: 7px;
+  color: lightgrey;
+}
+#select-2{
+  width: 320px;
+  outline: none;
+  border: 1px solid lightgray;
+  padding: 7px;
+  color: lightgray;
+}
+
+.fa-close{
+  padding: 7px;
+}
+
+.forms{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.billing-tag{
+  color: rgb(5, 172, 5);
+  /* padding-top: 4px; */
+}
+
+.fa-check-square{
+  font-size: 24px;
+  /* padding-top: 3px; */
+}
+
+.cluster{
+  padding-left: 50px;
+  padding-bottom: 15px;
+}
+
+/* <----Button----> */
+.Allbtn{
+  display: flex;
+  /* justify-content: space-around; */
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+.right-btn{
+  margin-left: 250px;
+}
+
+.btn a{
+  text-decoration: none;
+}
+
+.btnIcon{
+  color: white;
+  padding-right: 5px;
+  font-size: 16px;
+}
+
+.btn-icon{
+  font-size: 15px;
+}
+
+.generate {
+  color: white;
+  background-color: rgba(236, 47, 22, 0.829);
+  text-decoration: none;
+  padding: 8px 70px;
+  border: none;
+}
+
+.btnTxt a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.preview{
+  color: white;
+  background-color:rgb(50, 102, 180) ;
+  text-decoration: none;
+  padding: 8px 10px;
+  border: none;
+}
+
+.file{
+  border: 1px solid rgb(50, 102, 180) ;
+  background-color: white;
+  padding: 7px 10px;
+}
+
+.print{
+  border: none;
+  padding: 8px 10px;
+  background-color: rgb(50, 102, 180);
+}
+
+.icon_right{
+  border: 1px solid rgb(50, 102, 180);
+}
+
+.icon_right i{
+  color: rgb(50, 102, 180); 
+  padding: 8px 10px;
+  background-color: #fff;
+}
+
+.mail-icon{
+  background-color: rgb(50, 102, 180);
+  color: white;
+  border: none;
+  padding: 8px 10px;
+}
